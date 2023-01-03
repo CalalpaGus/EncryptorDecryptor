@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Encriptador GZ</title>
+	  <meta name="viewport" content="width=device-width">
+          <link rel="stylesheet" href="reset.css">
+          <!--<link rel="stylesheet" href="style.css">-->
+	</head>
+
+	<body style="background: rgb(243,245,252);">
+	  <header>
+		<div>
+			<h1><img src="img/logo.png"></h1>
+		</div>
+	  </header>
+	  <main>
+		<form>
+			<div class="principal">
+		                <textarea cols="70" rows="10" id="mensaje" class="inputPadron" required placeholder="Ingrese el texto aquí"></textarea>
+				<button type="button" class="encript" onclick="enviarTextoNoEnc()">Encriptar</button>
+				<button type="button" class="dencript" onclick="enviarTextoEnc()">Desencriptar</button>
+				<div>	
+					<textarea cols="70" rows="10" id="mensajeEncriptado" class="inputPadron" readonly="readonly"></textarea>
+					<button type="button" class="copiar" onclick="copiarAlPorta()">Copiar texto</button>
+				</div>
+				
+			</div>
+		</form>
+	  </main>
+	  <footer>	
+		<script src="script.js">
+
+		</script>
+		
+	  </footer>
+	</body>
+
+
+</html>
