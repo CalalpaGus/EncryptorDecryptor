@@ -20,7 +20,7 @@ main{
     margin-left: 80px;
 }
 
-.text-area{
+.inputPadron{
     border: none;
     color:#0a3871;
     margin-top: 90px;
@@ -28,7 +28,7 @@ main{
 }
 
 ::placeholder{color:#0a3871;}
-.text-area:focus{
+.inputPadron:focus{
     outline: none;
 }
 
