@@ -21,17 +21,17 @@
 	  <main>
 		<section>
 			
-		        <textarea cols="30" rows="10" id="mensaje" class="inputPadron" required placeholder="Ingrese el texto aquí"></textarea>
+		        <textarea cols="30" rows="10" id="mensaje" class="mensaje" required placeholder="Ingrese el texto aquí"></textarea>
 				<div>
 					<h6 class="informacion">Sólo letras minúsculas y sin acentos</h6>
 				</div>
-				<div>
+				<div class="botones">
 					<button type="button" class="encript" onclick="enviarTextoNoEnc()">Encriptar</button>
 					<button type="button" class="dencript" onclick="enviarTextoEnc()">Desencriptar</button>
 				</div>
 			</section>
 			<section>	
-				<textarea cols="20" rows="10" id="mensajeEncriptado" class="inputPadron" readonly="readonly"></textarea>
+				<textarea cols="20" rows="10" id="mensajeEncriptado" class="mensajeEncriptado" readonly="readonly"></textarea>
 				<div>
 					<button type="button" class="copiar" onclick="copiarAlPorta()">Copiar texto</button>
 				</div>
