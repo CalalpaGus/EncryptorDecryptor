@@ -1,16 +1,38 @@
-body{}
-
-button{
-	display: inline;
-	border-radius:1em;
-	padding: 2em 9em;
-	font-size:16px;
+*{
+    background: #E5E5E5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
 
 }
 
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
 
-/*responsive*/
+main{
+    display: flex;
+    margin-bottom: 50pz;
+    margin-left: 80px;
+}
 
+.text-area{
+    border: none;
+    color:#0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{color:#0a3871;}
+.text-area:focus{
+    outline: none;
+}
+
+/*responsive
 @media screen and (max-width:480px) {
     h1{
         text-align: center;
@@ -39,4 +61,4 @@ button{
     background:rgb(232, 161, 191);
     color:rgb(76,34,51);
     transform: scale(1.2);
-}
+}*/
